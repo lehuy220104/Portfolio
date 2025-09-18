@@ -11,12 +11,12 @@ import {
 } from "react-icons/fi";
 
 const CONTACT = {
-	name: "Le Van Dat",
-	email: "lvdat1705@gmail.com",
-	phone: "0368 142 412",
+	name: "Le Nguyen Duc Huy",
+	email: "duchuy22012004@gmail.com",
+	phone: "0849 202 477",
 	location: "Nha Be, Ho Chi Minh City, Vietnam",
-	github: "https://github.com/DatLe328",
-	linkedin: "https://linkedin.com/in/đạt-lê-b10069319",
+	github: "https://github.com/lehuy220104",
+	linkedin: "https://www.linkedin.com/in/le-nguyen-duc-huy-55696a363/",
 };
 
 const Contact: React.FC = () => {

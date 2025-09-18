@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import imgQLST from "../assets/qlst.png";
 // import imgTest from "../assets/test.jpg";
-import imgCourse from "../assets/courseLogin.jpg"
 import imgClinic from "../assets/clinicManagement.png"
-import imgHolder from "../assets/placeHolder.jpg"
+import imgHolder from "../assets/bookingweb.png"
 
 type Tech = { nameTech: string };
 
@@ -24,40 +23,22 @@ type Project = {
 const PROJECTS: Project[] = [
 	{
 		img: imgHolder,
-		name: "AI Powered Recruitment Platform",
-		des: "Solo-built web app that matches recruiters and candidates via a two-stage search: extract/normalize skills → retrieve with BM25 → re-rank using SBERT similarity + LightGBM.",
+		name: "Health Care Booking Web",
+		des: "The system allows patients to book medical appointments with doctors and track their personal health records.",
 		tech: [
-			{ nameTech: "Django REST" },
-			{ nameTech: "Sentence-Transformers (SBERT)" },
-			{ nameTech: "React" },
-			{ nameTech: "LightGBM (learning-to-rank)" },
-			{ nameTech: "Elasticsearch (BM25)" },
-			{ nameTech: "Swagger" },
+			{ nameTech: "ReactJS" },
+			{ nameTech: "Redux" },
+			{ nameTech: "Bootstrap4" },
+			{ nameTech: "NodeJS" },
+			{ nameTech: "RESTful API" },
+			{ nameTech: "MySQL" },
 			{ nameTech: "Git" },
 		],
 		linkLive: "",
-		linkGit: "https://github.com/DatLe328/AI-Powered-Recruitment-Platform",
-		member: "2",
-		role: "End-to-end owner—data processing, model training, API/backend, simple UI, and deployment.",
-		result: "Working prototype that outperforms a BM25-only baseline in offline tests; reproducible ML pipeline and dockerized services.",
-	},
-	{
-		img: imgCourse,
-		name: "Course Management Mobile App",
-		des: "Cross-platform mobile app to manage online courses with scheduling and secure user authentication. I led the backend with Django REST, integrated OAuth 2.0, and connected the React Native frontend. Backend deployed on PythonAnywhere; we ran sprints and code reviews.",
-		tech: [
-			{ nameTech: "Django REST" },
-			{ nameTech: "React Native" },
-			{ nameTech: "MySQL" },
-			{ nameTech: "OAuth 2.0" },
-			{ nameTech: "Swagger" },
-			{ nameTech: "Git" },
-		],
-		linkLive: "https://garotif3.pythonanywhere.com/",
-		linkGit: "https://github.com/DatLe328/courseapp",
-		member: "2",
-		role: "Backend lead + mobile integration. Designed REST APIs, auth, and deployment.",
-		result: "Deepened skills in Django REST, OAuth 2.0, API documentation with Swagger, CI/CD basics, and coordinating sprints with code reviews.",
+		linkGit: "https://github.com/lehuy220104/He-Thong-Quan-Ly-Dat-Kham.git",
+		member: "1",
+		role: "Full-stack",
+		result: "",
 	},
 	{
 		img: imgClinic,
@@ -72,16 +53,15 @@ const PROJECTS: Project[] = [
 			{ nameTech: "Cloudinary" },
 			{ nameTech: "Git" },
 		],
-		linkLive: "https://datlevipprono1.pythonanywhere.com/",
-		linkGit: "https://github.com/DatLe328/ClinicManagement",
-		member: "2",
+		linkGit: "https://github.com/lehuy220104/ClinicManagement.git",
+		member: "3",
 		role: "Full-stack with focus on backend and database design; built admin UI.",
 		result: "Improved database design and Flask API development; implemented basic real-time endpoints and admin workflows.",
 	},
 	{
 		img: imgQLST,
-		name: "Supermarket Internal Management System",
-		des: "A desktop application for supermarket back-office operations: sign-in & role-based access control; shift-based timekeeping; management of products, warehouse inventory, lots/batches, invoices, and purchase orders; payroll calculation and statistical reporting.",
+		name: "Course Registration Management",
+		des: "A system that allows students to register for courses, manage their schedules, and track enrollment information efficiently. ",
 		tech: [
 			{ nameTech: "C#/.NET" },
 			{ nameTech: "WinForms" },
@@ -89,9 +69,9 @@ const PROJECTS: Project[] = [
 			{ nameTech: "ADO.NET" },
 		],
 		linkLive: "",
-		linkGit: "https://github.com/DatLe328/Quan-ly-noi-vu-sieu-thi.git",
+		linkGit: "https://github.com/lehuy220104/QuanLyDangKyMonHoc.git",
 		member: "2",
-		role: "Analysis & development: designed the ERD/RD; built modules for login/authorization, warehouse–lots–invoices, timekeeping–payroll, and reporting.",
+		role: "Analysis & development: designed the ERD/RD; built modules",
 		result: "Completed the core subsystems; centralized data; role-based permissions.",
 	},
 ];

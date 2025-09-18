@@ -12,44 +12,7 @@ type Award = {
 };
 
 const AWARDS: Award[] = [
-	{
-		id: 1,
-		logo: logoVaip,
-		name: "Third Prize – Vietnam Olympiad in Informatics",
-		where: "National",
-		date: "Dec 2023",
-		link: "https://tinyurl.com/cctjkncs",
-	},
-	{
-		id: 2,
-		logo,
-		name: "Participant – ICPC Vietnam National",
-		where: "National",
-		date: "2023 – 2024",
-	},
-	{
-		id: 3,
-		logo: logo,
-		name: "University Programming Team — Vietnam National Olympiad in Informatics (2023–2025)",
-    where: "National",
-    date: "2023 – 2025",
-		link: "",
-	},
-	{
-		id: 4,
-		logo,
-		name: "First Prize – Competitive Programming Contest",
-		where: "HCM Open University",
-		date: "Dec 2024",
-	},
-	{
-		id: 5,
-		logo,
-		name: "Second Prize – Faculty-level Olympiad in Informatics",
-		where: "HCM Open University",
-		date: "Dec 2023",
-		link: "https://www.facebook.com/share/p/1B8ijNgJ1e/",
-	},
+	
 ];
 
 export default function Achievement() {

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import logo from "../assets/logo.png";
-import logoVaip from "../assets/logoVaip.jpg";
+// import logo from "../assets/logo.png";
+// import logoVaip from "../assets/logoVaip.jpg";
 
 type Award = {
 	id: number;
